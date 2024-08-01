@@ -1,5 +1,7 @@
 <script>
 	import { tick } from 'svelte';
+	import { base } from '$app/paths';
+
 	import { Confetti } from 'svelte-confetti';
 	import '../styles/app.css';
 
@@ -42,7 +44,7 @@
 
 	<div class="relative flex flex-col lg:flex-row justify-between items-center mr-16 gap-x-5">
 		<div>
-			<img class=" w-full h-72" src="/logot.png" alt="logo" />
+			<img class=" w-full h-72" src="{base}/logot.png" alt="logo" />
 		</div>
 		<div class=" lg:text-start text-center">
 			<h1 class=" text-3xl lg:text-6xl italic font-semibold text-blue-700 leading-relaxed">
