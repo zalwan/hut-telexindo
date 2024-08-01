@@ -47,10 +47,12 @@
 			<img class=" w-full h-72" src="{base}/logot.png" alt="logo" />
 		</div>
 		<div class=" lg:text-start text-center">
-			<h1 class=" text-3xl lg:text-6xl italic font-semibold text-blue-700 leading-relaxed">
+			<h1 class=" text-3xl lg:text-6xl italic font-semibold text-blue-700 leading-relaxed mb-2">
 				Anniversary
 			</h1>
-			<h1 class=" text-3xl lg:text-6xl text-red-700 font-semibold">PT TELEXINDO BIZMART</h1>
+			<h1 class=" text-3xl lg:text-6xl text-red-700 font-semibold leading-relaxed font-righteous">
+				PT TELEXINDO BIZMART
+			</h1>
 		</div>
 		{#if active}
 			<div class="absolute left-20">

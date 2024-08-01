@@ -6,6 +6,9 @@ export default {
 			backgroundImage: {
 				'bg-hut': "url('/bg.png')"
 			}
+		},
+		fontFamily: {
+			righteous: ['Righteous', 'sans-serif']
 		}
 	},
 	plugins: []
