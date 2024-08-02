@@ -32,7 +32,7 @@
 			<Confetti
 				x={[-5, 5]}
 				y={[0, 0.1]}
-				delay={[1000, 2000]}
+				delay={[1500, 2000]}
 				amount={1000}
 				duration={4000}
 				size={20}
@@ -44,7 +44,7 @@
 
 	<div class="relative flex flex-col lg:flex-row justify-between items-center mr-16 gap-x-5">
 		<div>
-			<img class=" w-full h-72" src="{base}/logot.png" alt="logo" />
+			<img class=" w-full h-72" src="{base}/logos.png" alt="logo" />
 		</div>
 		<div class=" lg:text-start text-center">
 			<h1 class=" text-3xl lg:text-6xl italic font-semibold text-blue-700 leading-relaxed mb-2">
@@ -55,8 +55,8 @@
 			</h1>
 		</div>
 		{#if active}
-			<div class="absolute left-20">
-				<Confetti infinite y={[1.25, 1.5]} x={[-1, 1]} colorArray={['#c8102e']} />
+			<div class="absolute left-[4rem] top-[3rem]">
+				<Confetti infinite amount={300} y={[1.25, 0.5]} x={[-1, 1]} colorArray={['#1d4ed8']} />
 			</div>
 		{/if}
 	</div>
